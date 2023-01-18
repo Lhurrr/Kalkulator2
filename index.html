@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>luhur abdul mattin 12 TKJ</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet"> 
+
+	<!-- Script -->
+	<script src="script.js"></script>
+	<script src="storage.js"></script>
+</head>
+
+<body>
+	<h1 style="text-align: center;">Luhur Abdul Mattin 12 TKJ</h1>
+	<div class="bg"></div>
+		<div class="main">
+			<h2>kalkulator</h2>
+			<form name="form">
+				<input class="textarea" name="textarea">
+			</form>
+				<table>
+					<tr>
+						<td><input class="button btn-green" type="button" value="C" onclick="clean()"></td>
+						<td><input class="button btn-green" type="button" value="del" onclick="back()"></td>
+						<td><input class="button btn-green" type="button" value="/" onclick="insert(' / ')"></td>
+						<td><input class="button btn-green" type="button" value="x" onclick="insert(' * ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+						<td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+						<td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+						<td><input class="button btn-green" type="button" value="-" onclick="insert(' - ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+						<td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+						<td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+						<td><input class="button btn-green" type="button" value="+" onclick="insert(' + ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+						<td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+						<td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+						<td rowspan=2><input style="height:106px;" class="button btn-green" type="button" value="=" onclick="equal()"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+						<td><input class="button" type="button" value="00" onclick="insert('00')"></td>
+						<td><input class="button" type="button" value="." onclick="insert('.')"></td>
+					</tr>
+				</table>
+			
+		</div>
+	</div>
+	
+	
+</body>
+<footer>
+	<div style="position:fixed;right:20px;bottom:20px;">
+		<a href="https://wa.me/+6281316338156">
+		<button style="background:#00ff5966;vertical-align:center;height:40px;border-radius:10px;padding: 8px;">
+		<img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp</button></a>
+	</div>
+	<div style="position:fixed;right:125px;bottom:20px;">
+		<a href="https://www.youtube.com/@luhurAM">
+		<button style="background:#ff282876;vertical-align:center;height:40px;border-radius:10px;padding: 8px;">
+		<img src="https://cdn-icons-png.flaticon.com/16/1384/1384060.png"> YouTube</button></a>
+	</div>
+	<div style="position:fixed;left:20px;bottom:22px;">
+		<a href="https://www.instagram.com/_lhur30/">
+		<button style="background:#ffffff;vertical-align:center;height:40px;border-radius:10px;padding: 8px;">
+		<img src="https://cdn-icons-png.flaticon.com/16/2111/2111463.png"> Instagram</button></a>
+	</div>
+	<div style="position:fixed;left:125px;bottom:20px;">
+		<a href="mailto:luhurabdulmattin@gmail.com">
+		<button style="background:#ffffff;vertical-align:center;height:40px;border-radius:10px;padding: 8px;">
+		<img src="https://cdn-icons-png.flaticon.com/16/5968/5968534.png"> Gmail</button></a>
+	</div>
+</footer>
+</html>
